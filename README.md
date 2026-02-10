@@ -15,28 +15,6 @@ data-labelling-twitch-reviews/
 ├── Twitch_Reviews_Labelling.ipynb # Logic for rule-based heuristics & auditing
 └── Twitch_Reviews_Visualization.ipynb # Analysis of agreement & lexical patterns
 
-Tentu, Marcell. Saya sangat setuju. Kunci dari portofolio yang bagus adalah kejujuran teknis. Kita tidak perlu bilang ini "AI Tercanggih", tapi kita tunjukkan bahwa kamu mengerti statistik dan kualitas data.
-
-Berikut adalah versi Full Markdown yang tetap grounded (membumi) namun sangat teknikal. Saya sudah memasukkan angka-angka spesifik dari temuanmu karena angka adalah bukti paling jujur dalam data science.
-
-Markdown
-# Twitch App Reviews: Data Quality Audit & Heuristic Labeling
-
-## 📌 Project Overview
-This project focuses on auditing and validating the data quality of **55,989 Twitch app reviews**. Rather than just labeling data, I built a pipeline to measure the consistency between user-provided star ratings and the actual sentiment expressed in their text, identifying "noisy" data that could hinder machine learning performance.
-
-The goal is to demonstrate a rigorous approach to data preprocessing and quality assurance for NLP tasks.
-
----
-
-## 📂 Project Structure
-```text
-data-labelling-twitch-reviews/
-├── twitch_reviews.csv            # Raw dataset (55k+ reviews)
-├── twitch_reviews_audited.csv    # Dataset with consistency & heuristic flags
-├── Twitch_Reviews_Labelling.ipynb # Logic for rule-based heuristics & auditing
-└── Twitch_Reviews_Visualization.ipynb # Analysis of agreement & lexical patterns
-
 
 🛠️ Tech Stack
 Language: Python
